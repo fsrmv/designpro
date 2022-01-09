@@ -1,0 +1,93 @@
+#header {
+	padding: 15px 0 15px 0;
+}
+
+#orders {
+	padding: 15px 0 15px 0;
+}
+
+#footer {
+	padding: 20px 0 20px 0;
+	color: white;
+	background-color: black;
+}
+
+header {
+	margin-top: 50px;
+}
+
+#logo {
+	width: 35px;
+	height: 50px;
+}
+
+a {
+	font-size: 17px;
+}
+
+#orders .img {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	transition: .3s;
+}
+
+#orders .timestamp {
+	padding: 2px;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+	border-radius: 4px;
+}
+
+#orders .img1 {
+	width: 100%;
+	height: 200px;
+	transition: .3s;
+	left: 0;
+}
+
+#orders .img2 {
+	width: 100%;
+	height: 200px;
+	transition: .3s;
+	left: 300px;
+}
+
+#orders .img:hover .img1 {
+	left: -300px;
+}
+
+#orders .img:hover .img2 {
+	left: 0px;
+}
+
+.profile {
+	background: url(../img/car2.jpg);
+	width: 100%;
+	min-height: 600px;
+	color: white;
+}
+
+#my_orders .timestamp {
+	padding: 2px;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+	border-radius: 4px;
+}
+
+#myOrders .timestamp {
+	padding: 2px;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+	border-radius: 4px;
+}
